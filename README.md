@@ -112,25 +112,25 @@ streamlit run app.py
 
 ## 🏠 Home Page
 
-![Home](screenshots/home.png.png)
+![Home](screenshots/home.png)
 
 ---
 
 ## 📂 Upload Documents
 
-![Upload](screenshots/uploaded.png.png)
+![Upload](screenshots/uploaded.png)
 
 ---
 
 ## ✅ Knowledge Base Created
 
-![Knowledge Base](screenshots/knowledge%20base.png.png)
+![Knowledge Base](screenshots/knowledge_base.png)
 
 ---
 
 ## 💬 Chat Response
 
-![Chat](screenshots/chat%20response.png)
+![Chat](screenshots/chat_response.png)
 
 ---
 
