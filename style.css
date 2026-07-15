@@ -1,0 +1,153 @@
+/* ==========================================================
+   Enterprise AI Knowledge Assistant
+   Modern ChatGPT Inspired UI
+========================================================== */
+
+/* Main Background */
+.stApp {
+    background-color: #0E1117;
+    color: #FAFAFA;
+}
+
+/* Reduce Top Padding */
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background: #161B22;
+    border-right: 1px solid #30363D;
+}
+
+/* Sidebar Text */
+section[data-testid="stSidebar"] * {
+    color: white;
+}
+
+/* Title */
+.title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #58A6FF;
+    margin-bottom: 5px;
+}
+
+/* Subtitle */
+.subtitle {
+    text-align: center;
+    font-size: 18px;
+    color: #8B949E;
+    margin-bottom: 30px;
+}
+
+/* Chat Messages */
+.stChatMessage {
+    border-radius: 14px;
+    border: 1px solid #30363D;
+    padding: 14px;
+    margin-bottom: 12px;
+}
+
+/* User Bubble */
+[data-testid="stChatMessage"]:has([data-testid="chatAvatarIcon-user"]) {
+    background-color: rgba(88,166,255,0.12);
+}
+
+/* Assistant Bubble */
+[data-testid="stChatMessage"]:has([data-testid="chatAvatarIcon-assistant"]) {
+    background-color: #1C2128;
+}
+
+/* Buttons */
+.stButton>button {
+    width: 100%;
+    border-radius: 10px;
+    height: 45px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.stButton>button:hover {
+    transform: scale(1.02);
+}
+
+/* Download Button */
+.stDownloadButton>button {
+    width: 100%;
+    border-radius: 10px;
+    height: 45px;
+}
+
+/* File Uploader */
+[data-testid="stFileUploader"] {
+    border: 2px dashed #58A6FF;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Metrics */
+[data-testid="metric-container"] {
+    background: #161B22;
+    border: 1px solid #30363D;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+/* Expanders */
+.streamlit-expanderHeader {
+    font-weight: bold;
+}
+
+/* Chat Input */
+[data-testid="stChatInput"] {
+    border-top: 1px solid #30363D;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #161B22;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #444C56;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #58A6FF;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    color: #8B949E;
+    margin-top: 40px;
+    font-size: 13px;
+}
+
+/* Success */
+.stSuccess {
+    border-radius: 10px;
+}
+
+/* Warning */
+.stWarning {
+    border-radius: 10px;
+}
+
+/* Error */
+.stError {
+    border-radius: 10px;
+}
+
+/* Info */
+.stInfo {
+    border-radius: 10px;
+}
