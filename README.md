@@ -1,6 +1,6 @@
 # 🤖 Enterprise AI Knowledge Assistant
 
-An Enterprise-grade Retrieval-Augmented Generation (RAG) chatbot built using **Python**, **Streamlit**, **Ollama (Llama 3.2)**, **ChromaDB**, and **Sentence Transformers**. The assistant can answer questions based on uploaded PDF, DOCX, and TXT documents using semantic search and local LLM inference.
+An Enterprise-grade **Retrieval-Augmented Generation (RAG)** chatbot built using **Python**, **Streamlit**, **Ollama (Llama 3.2)**, **ChromaDB**, and **Sentence Transformers**. The assistant answers questions from uploaded PDF, DOCX, and TXT documents using semantic search and local LLM inference.
 
 ---
 
@@ -8,14 +8,14 @@ An Enterprise-grade Retrieval-Augmented Generation (RAG) chatbot built using **P
 
 - 📄 Upload PDF, DOCX, and TXT files
 - 🧠 Semantic search using Sentence Transformers
-- 📚 ChromaDB vector database
+- 📚 ChromaDB Vector Database
 - 🤖 Local LLM responses using Ollama (Llama 3.2)
-- 💬 ChatGPT-style interface
-- 📊 Confidence score
-- 📑 Source citation
-- 📥 Download chat history
-- 🌙 Modern dark UI
-- 🔒 Fully local (no external API required)
+- 💬 ChatGPT-style chat interface
+- 📊 Confidence Score
+- 📑 Source Citation
+- 📥 Download Chat History
+- 🌙 Modern Dark UI
+- 🔒 Fully Local (No External APIs)
 
 ---
 
@@ -35,11 +35,12 @@ An Enterprise-grade Retrieval-Augmented Generation (RAG) chatbot built using **P
 
 ## 📂 Project Structure
 
-```
+```text
 Enterprise_AI_Knowledge_Assistant/
 │
 ├── uploaded_files/
 ├── vector_db/
+├── screenshots/
 ├── app.py
 ├── config.py
 ├── rag_engine.py
@@ -57,37 +58,39 @@ Enterprise_AI_Knowledge_Assistant/
 
 ## ⚙️ Installation
 
-Clone the repository:
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Enterprise_AI_Knowledge_Assistant.git
+git clone https://github.com/divya-pamnani/Enterprise-AI-Knowledge-Assistant.git
 
-cd Enterprise_AI_Knowledge_Assistant
+cd Enterprise-AI-Knowledge-Assistant
 ```
 
-Install dependencies:
+### 2. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Install Ollama:
+### 3. Install Ollama
+
+Download from:
 
 https://ollama.com
 
-Pull the Llama 3.2 model:
+### 4. Pull Llama 3.2
 
 ```bash
 ollama pull llama3.2
 ```
 
-Start Ollama:
+### 5. Start Ollama
 
 ```bash
 ollama serve
 ```
 
-Run the application:
+### 6. Run the Application
 
 ```bash
 streamlit run app.py
@@ -98,69 +101,70 @@ streamlit run app.py
 ## 💡 Usage
 
 1. Launch the application.
-2. Upload one or more PDF, DOCX, or TXT files.
+2. Upload one or more PDF, DOCX, or TXT documents.
 3. Click **Build Knowledge Base**.
-4. Ask questions related to the uploaded documents.
-5. View answers along with confidence scores and document sources.
+4. Ask questions about the uploaded documents.
+5. View answers with confidence scores and source citations.
 
 ---
 
-## 📸 Screenshots
+# 📸 Screenshots
 
-Add screenshots here after running the application.
-
-Example:
-
-```
-screenshots/
-### Home Page
+## 🏠 Home Page
 
 ![Home](screenshots/home.png.png)
 
-### Upload Documents
+---
 
-![Upload] (screenshots/uploaded.png.png)
+## 📂 Upload Documents
 
-### Knowledge Base Created
-
-![Knowledge Base] (screenshots/knowledge base.png.png)
-
-### Chat Response
-
-![Chat](<screenshots/chat response.png>)
+![Upload](screenshots/uploaded.png.png)
 
 ---
 
-## 🎯 Project Workflow
+## ✅ Knowledge Base Created
 
-```
-Documents
-     │
-     ▼
-Document Loader
-     │
-     ▼
-Text Chunking
-     │
-     ▼
-Sentence Embeddings
-     │
-     ▼
-ChromaDB Vector Store
-     │
-     ▼
-Semantic Search
-     │
-     ▼
-Ollama (Llama 3.2)
-     │
-     ▼
-Final Answer
+![Knowledge Base](screenshots/knowledge%20base.png.png)
+
+---
+
+## 💬 Chat Response
+
+![Chat](screenshots/chat%20response.png)
+
+---
+
+# 🎯 Project Workflow
+
+```text
+                Documents
+                    │
+                    ▼
+          Document Loader
+                    │
+                    ▼
+            Text Chunking
+                    │
+                    ▼
+      Sentence Transformer
+            Embeddings
+                    │
+                    ▼
+         ChromaDB Vector Store
+                    │
+                    ▼
+          Semantic Retrieval
+                    │
+                    ▼
+          Ollama (Llama 3.2)
+                    │
+                    ▼
+            Generated Answer
 ```
 
 ---
 
-## 📈 Future Improvements
+# 📈 Future Improvements
 
 - OCR support for scanned PDFs
 - Image understanding
@@ -173,14 +177,20 @@ Final Answer
 
 ---
 
-## 👩‍💻 Author
+# 👩‍💻 Author
 
 **Divya Pamnani**
 
 B.Tech Artificial Intelligence & Machine Learning
 
+GitHub: https://github.com/divya-pamnani
+
 ---
 
-## 📜 License
+# 📜 License
 
-This project is developed for educational and portfolio purposes.
+This project is intended for educational and portfolio purposes.
+
+---
+
+⭐ If you found this project useful, consider giving it a star on GitHub!
