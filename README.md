@@ -113,11 +113,21 @@ Example:
 
 ```
 screenshots/
-│
-├── home.png
-├── upload.png
-├── chat.png
-```
+### Home Page
+
+![Home](screenshots/home.png.png)
+
+### Upload Documents
+
+![Upload] (screenshots/uploaded.png.png)
+
+### Knowledge Base Created
+
+![Knowledge Base] (screenshots/knowledge base.png.png)
+
+### Chat Response
+
+![Chat](<screenshots/chat response.png>)
 
 ---
 
